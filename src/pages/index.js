@@ -2,17 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-
-
+import Process from '../components/process'
+import Specialize from '../components/specialize'
+import Stats from '../components/stats'
 
 const IndexPage = () => (
   <Layout>
-    
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    
-    
+    <Specialize/>
+    <Stats/>
+    <Process />
   </Layout>
 )
 

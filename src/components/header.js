@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import logo from '../images/logo.png'
+import HeaderContent from './headerContent'
 
 const Header = () =>{
 
@@ -17,6 +18,7 @@ const Header = () =>{
         </ul>
 
       </nav>
+      <HeaderContent/>
     </div>
     </header>
   )
