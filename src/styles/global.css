@@ -1,0 +1,46 @@
+:root {
+    --website-width: 1280px;
+    --main: #ffbc00;
+    --light: #f4f4f4;
+    --medium: #ccc;
+    --dark: #333;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inria Serif', serif;
+    line-height: 1.6;
+    background: #fff;
+    color: var(--dark); 
+  } 
+  
+  a {
+    text-decoration: none;
+    color: var(--dark);
+  } 
+  
+  ul {
+    list-style: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Tomorrow', sans-serif;
+    text-transform: uppercase;
+  } 
+
+  .logo {
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+
+  
