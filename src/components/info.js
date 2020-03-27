@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaAward} from 'react-icons/fa'
 
 const Info =()=>{
     return(
@@ -21,6 +22,7 @@ const Info =()=>{
           </div>
           
           <div>
+            <FaAward/>
             <h3>Award One</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
@@ -28,6 +30,7 @@ const Info =()=>{
             </p>
           </div>
           <div>
+          <FaAward/>
             <h3>Award Two</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
@@ -35,6 +38,7 @@ const Info =()=>{
             </p>
           </div>
           <div>
+          <FaAward/>
             <h3>Award Three</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
