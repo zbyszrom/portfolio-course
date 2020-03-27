@@ -34,6 +34,14 @@
     font-family: 'Tomorrow', sans-serif;
     text-transform: uppercase;
   } 
+  h2 {
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 100;
+  
+  }
 
   .logo {
     width: 70px;
