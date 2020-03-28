@@ -4,7 +4,7 @@ import {FaFileAlt, FaDesktop,  FaObjectUngroup, FaThumbsUp} from 'react-icons/fa
 const Process = ()=>{
     return(
         <div className = 'container'>
-            <h2> My creative process</h2>
+            <h2 id ='creativeProcess'> My creative process</h2>
             <div className='line'></div>
             <p>
             All of my UI/UX and design projects are based off of a practiced

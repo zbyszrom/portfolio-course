@@ -1,7 +1,30 @@
 import React from 'react'
 import {FaAward} from 'react-icons/fa'
+import { useStaticQuery, graphql } from "gatsby"
+import Img from 'gatsby-image'
+import styled from 'styled-components'
+
+const getImage = graphql`
+query {
+    photo: file(name: {eq: "about"}) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      }
+}
+`
+const SImg = styled(Img)`
+ width: 50vw;
+`
+
 
 const Info =()=>{
+
+  const data = useStaticQuery(getImage)
+  const about = data.photo.childImageSharp.fluid
+
     return(
         <div className = 'container'>
       <h2>About me</h2>
@@ -10,6 +33,7 @@ const Info =()=>{
           Let me tell you a little about myself and what I do...
         </p>
         <div>
+          <SImg fluid = {about} alt=''className = ''/>
           <div>
           <h4>Your Project Is In Safe Hands</h4>
             <p>
