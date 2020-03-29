@@ -22,11 +22,6 @@
     text-decoration: none;
     color: var(--dark);
   } 
-  
-  ul {
-    list-style: none;
-  }
-
   h1,
   h2,
   h3,
@@ -40,8 +35,16 @@
     padding-bottom: 0.5rem;
     text-align: center;
     font-weight: 100;
-  
   }
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  li {
+    padding: 1rem 1.5rem;
+  }
+
 
   .logo {
     width: 70px;
@@ -49,13 +52,7 @@
     color: #fff;
     text-transform: uppercase;
   }
-  testimonialImg {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 0.5rem;
-
-  }
+ 
   
 
   

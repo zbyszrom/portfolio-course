@@ -14,7 +14,7 @@ const Header = () =>{
 
   return(
     <header>
-    <div>
+    <div className = "container">
       <nav>
       <img src={logo} alt="My Portfolio" className = "logo" />
         <ul>

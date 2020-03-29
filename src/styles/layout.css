@@ -4,6 +4,11 @@
   margin: auto;
   overflow: hidden;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
 .line {
   height: 2px;
   width: 3rem;
@@ -11,3 +16,7 @@
   display: block;
   margin: 0 auto 1rem auto;
 }
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }

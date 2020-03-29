@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "gatsby"
+
 
 const HeaderContent = ()=>{
     return(
@@ -14,7 +16,7 @@ const HeaderContent = ()=>{
         <p >
           I specialize in graphic design, UI/UX and photography
         </p>
-        <a href="work.html" >View My Work</a>
+        <Link to="/work" >View My Work</Link>
       </div>
     )
 }
