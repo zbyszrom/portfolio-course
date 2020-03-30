@@ -19,7 +19,11 @@ query  {
   }
 }
 `  
-
+const Testim = styled.div `
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+`
 const SImg = styled(Img)`
     width: 100px;
     height: 100px;
@@ -38,7 +42,7 @@ const Testimonials = ()=>{
             <h2>Testimonials</h2>
             <div className = "line"></div>
             <p >Take a look at what my clients say...</p>
-            <div>
+            <Testim>
                 <div>
                 <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -97,7 +101,7 @@ const Testimonials = ()=>{
                 </div>
 
 
-            </div>
+            </Testim>
         </div>
     )
 }
