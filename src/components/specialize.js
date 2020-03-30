@@ -1,5 +1,13 @@
 import React from 'react'
+import styled from 'styled-components'
 import {FaFileAlt, FaDesktop, FaThumbsUp, FaObjectUngroup} from 'react-icons/fa'
+
+const Specials = styled.div`
+   margin-top: 3rem;
+   display: grid;
+   grid-gap: 1rem;
+   grid-template-columns: repeat(4, 1fr);
+`
 
 const Specialize = ()=>{
     return(
@@ -10,6 +18,7 @@ const Specialize = ()=>{
             Photography as well as creating digital masterpieces and UI/UX layouts
           for websites and mobile applications
         </p>
+            <Specials>
             <div>
                 <FaFileAlt/>
                 <h3>Concepting</h3>
@@ -46,6 +55,7 @@ const Specialize = ()=>{
           aliquam numquam quidem. 
         </p>
         </div>
+        </Specials>
     </div>
     )
 }

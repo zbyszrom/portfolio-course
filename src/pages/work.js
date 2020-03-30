@@ -7,7 +7,7 @@ const Work = () => (
   <Layout>
       
     <div className = 'container'>
-      <h2>My work</h2>
+      <h2 id ='work'>My work</h2>
       <div className = 'line'></div>
       <p >
           Check out some of my projects

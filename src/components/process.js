@@ -1,5 +1,14 @@
 import React from 'react'
+import styled from 'styled-components'
 import {FaFileAlt, FaDesktop,  FaObjectUngroup, FaThumbsUp} from 'react-icons/fa'
+
+const Points = styled.div`
+   margin-top: 1rem;
+   display: grid;
+   grid-gap: 1.5rem;
+   grid-template-columns: repeat(4, 1fr);
+   
+`
 
 const Process = ()=>{
     return(
@@ -10,6 +19,7 @@ const Process = ()=>{
             All of my UI/UX and design projects are based off of a practiced
           formula to get the result that I am looking for
             </p>
+            <Points>
             <div>
              <FaFileAlt/> 
             <div >1</div>
@@ -18,11 +28,10 @@ const Process = ()=>{
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
               voluptas laborum repellendus dolorum! Harum, cupiditate.
             </p>
-          </div>
+            </div>
           <div>
           <FaDesktop/>
-            <div >2</div>
-           
+          <div >2</div>       
             <h3>Brainstorming & Concept</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
@@ -46,11 +55,8 @@ const Process = ()=>{
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
               voluptas laborum repellendus dolorum! Harum, cupiditate.
             </p>
-          </div>
-          
-   
-            
-
+          </div>          
+          </Points>
         </div>
         
     )

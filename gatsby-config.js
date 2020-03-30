@@ -30,6 +30,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,
-    `gatsby-plugin-styled-components`, 
+    `gatsby-plugin-styled-components`,
+    'gatsby-plugin-anchor-links' 
   ],
 }

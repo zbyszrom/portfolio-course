@@ -1,8 +1,13 @@
 import React from 'react'
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import styled from 'styled-components'
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-const Button = styled(Link)`
+const Content = styled.div`
+   text-align: center;
+   padding-top: 20%;
+`
+const Button = styled(AnchorLink)`
   display: inline-block;
   padding: 0.8rem 2rem;
   transition: all 0.5s;
@@ -13,7 +18,7 @@ const Button = styled(Link)`
 `
 const HeaderContent = ()=>{
     return(
-        <div>
+        <Content>
         <h1>
           I Am John The
           <span
@@ -25,8 +30,8 @@ const HeaderContent = ()=>{
         <p >
           I specialize in graphic design, UI/UX and photography
         </p>
-        <Button to="/work" >View My Work</Button>
-      </div>
+        <Button to="/work#work" >View My Work</Button>
+      </Content>
     )
 }
 

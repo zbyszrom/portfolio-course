@@ -1,9 +1,15 @@
 import React from 'react'
 import { FaUsers, FaAward, FaHourglassStart, FaCodeBranch} from 'react-icons/fa'
+import styled from 'styled-components'
+
+const St = styled.div`
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+`
 
 const Stats = ()=>{
     return(
-        <div>
+        <St>
         <div>
           <ul>
             <li><FaUsers/></li>
@@ -36,7 +42,7 @@ const Stats = ()=>{
 
 
 
-        </div>
+        </St>
     )
 }
 export default Stats

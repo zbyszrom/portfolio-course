@@ -14,6 +14,15 @@ nav {
   justify-content: space-between;
   padding-top: 1rem;
 }
+footer{
+  background: var(--dark);
+  color: #fff;
+  height: 5rem;
+  display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+}
 .line {
   height: 2px;
   width: 3rem;
