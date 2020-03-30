@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
+import HeaderContent from '../components/headerContent'
 import Process from '../components/process'
 import Specialize from '../components/specialize'
 import Stats from '../components/stats'
 
 const IndexPage = () => (
-  <Layout>
+    <Layout > 
     <Specialize/>
     <Stats/>
     <Process />
