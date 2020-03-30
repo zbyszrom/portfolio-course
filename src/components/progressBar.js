@@ -35,15 +35,15 @@ const ProgressBar = ()=>{
           </Progress>
         <h4>HTML & CSS:</h4>
         <Progress>
-          <div style={{width:'80%'}}></div>
+          <div style={{width:'90%'}}></div>
           </Progress>
         <h4>React:</h4>
         <Progress>
-          <div style={{width:'50%'}}></div>
+          <div style={{width:'60%'}}></div>
           </Progress>
         <h4>Gatsby:</h4>
         <Progress>
-          <div style={{width:'75%'}}></div>
+          <div style={{width:'80%'}}></div>
           </Progress>
         
 </div>
